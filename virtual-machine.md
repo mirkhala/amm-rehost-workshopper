@@ -54,7 +54,6 @@ To get it ready for use, you need to create a new machine and import the use an 
 **2.** Click in the first link available in browser favorites.
 ![browser1]({% image_path /scenario1/browser1.png %}){:width="640 px"}
 
-**3.** Replace the **repl** part of the url with your guid.
-![browser2]({% image_path /scenario1/browser2.png %}){:width="640 px"}
+**3.** Replace the **#** part of the url with your guid.
 
-In this example, it would be http://testdrive-workshopper.apps-1336.generic.opentlc.com
+For example, it would be https://microservices.msa1.rhcol.com:8443
