@@ -1,10 +1,7 @@
 # Lab Environment
 
-We provisioned an Openshift cluster for you with everything you need to run our labs. Before starting, you need to obtain your own GUID (Globally Unique Identifier) to access your Openshift.
+We provisioned an Openshift cluster for you with everything you need to run our labs. 
 
-A link is usually shared by your instructor with its **Lab Code** and **Activation Key**. After it, you will receive your GUID, please take note if it!
-
-![lab]({% image_path /scenario1/guid.png %}){:width="640 px"}
-
-
-
+Using an internet browser, navigate to the URL of Red Hat OpenShift Container Platform: https://microservices.msa[your instance#].rhcol.com:8443 and use this follow credentials for your authentication: 
+Username: admin
+Password: admin
