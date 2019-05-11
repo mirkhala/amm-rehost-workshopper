@@ -75,7 +75,7 @@ Firstly, you will need to open the terminal window and make a login into Openshi
 Just paste it in the terminal window:
 
 ~~~shell
-oc login {{OPENSHIFT_MASTER_URL}} --token=apslfkwikdk
+oc login {{OPENSHIFT_MASTER_URL}}
 ~~~
 
 Switch to the terminal window in project you created earlier:
@@ -87,6 +87,7 @@ oc project coolstore-dev
 And finally deploy template:
 
 ~~~shell
+oc process -f https://raw.githubusercontent.com/coolstore/monolith/master/src/main/openshift/template.json | oc create -f -
 oc new-app coolstore-monolith-binary-build
 ~~~
 
