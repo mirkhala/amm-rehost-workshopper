@@ -41,8 +41,8 @@ First, open the OpenShift Console in the browser: https://microservices.msa#.rhc
 
 Login using:
 
-* Username: `{{OPENSHIFT_USERNAME}}`
-* Password: `{{OPENSHIFT_PASSWORD}}`
+* Username: admin
+* Password: admin
 
 You will see the OpenShift landing page:
 
