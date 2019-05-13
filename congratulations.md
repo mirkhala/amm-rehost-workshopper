@@ -35,7 +35,7 @@ At the `<!-- TODO: Add OpenShift profile here -->` we are going to add a the fol
 
 **2.** Create the OpenShift project
 
-First, open the OpenShift Console in the browser: [{{OPENSHIFT_MASTER_URL}}]({{OPENSHIFT_MASTER_URL}}){:target="_blank"}
+First, open the OpenShift Console in the browser: https://microservices.msa#.rhcol.com
 
 ![OpenShift Console]({% image_path /scenario1/image28.png %}){:width="550 px"}
 
@@ -75,7 +75,7 @@ Firstly, you will need to open the terminal window and make a login into Openshi
 Just paste it in the terminal window:
 
 ~~~shell
-oc login {{OPENSHIFT_MASTER_URL}}
+oc login https://microservices.msa#.rhcol.com
 ~~~
 
 Switch to the terminal window in project you created earlier:
@@ -95,7 +95,7 @@ This will deploy both a PostgreSQL database and JBoss EAP, but it will not start
 
 Then open up the Monolith Overview page at
 
-[{{OPENSHIFT_MASTER_URL}}/console/project/coolstore-dev/]({{OPENSHIFT_MASTER_URL}}/console/project/coolstore-dev/){:target="_blank"} and verify the monolith template items are created:
+http://www-coolstore-dev.apps.msa#.rhcol.com and verify the monolith template items are created:
 
 ![OpenShift Console]({% image_path /scenario1/image16.png %}){:width="650 px"}
 
@@ -131,7 +131,7 @@ Go to Openshift Explorer tab and add a new connection using its wizard:
 
 ![]({% image_path /scenario1/image46.png %}){:width="650 px"}
 
-Enter the master node url provided by the instructor \([{{OPENSHIFT_MASTER_URL}}]({{OPENSHIFT_MASTER_URL}}){:target="_blank"}\), select Basic protocol and enter with username `{{OPENSHIFT_USERNAME}}` and password `{{OPENSHIFT_PASSWORD}}`.
+Enter the master node url provided by the instructor https://microservices.msa#.rhcol.com, select Basic protocol and enter with username `admin` and password `admin`.
 
 ![]({% image_path /scenario1/image10.png %}){:width="450 px"}
 
@@ -185,7 +185,7 @@ When it's done you should see the application deployed successfully with blue ci
 
 Test the application by clicking on the Route link at
 
-[{{OPENSHIFT_COOLSTORE_DEV_URL}}]({{OPENSHIFT_COOLSTORE_DEV_URL}}){:target="_blank"} , which will open the same monolith Coolstore in your browser, this time running on OpenShift:
+http://www-coolstore-dev.apps.msa#.rhcol.com , which will open the same monolith Coolstore in your browser, this time running on OpenShift:
 
 ![OpenShift Console]({% image_path /scenario1/image53.png %}){:width="650 px"}
 
